@@ -83,4 +83,9 @@ def test_file_manager_system_information():
 def test_file_manager_creator():
     assert True, True
 
-# чистых функций нет
+# больше чистых функций нет 2
+###sdfasdf
+# asdfasdf
+
+def p():
+    pass
