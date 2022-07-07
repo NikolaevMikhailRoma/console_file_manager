@@ -4,13 +4,15 @@ from functions import *
 
 if __name__ == '__main__':
     did = 1
-    while did != 0:
+    while str(did) != str('0'):
+        print('Чтобы выйти нажмите 0.\n')
         print('Чтобы сделать все по умолчанию (по порядку) нажмите 1.\n')
+        print ()
 
         print()
         did = input('Введите действие: ')
 
-        if did == 1:
+        if did == "1":
             create_folder('new')
             create_empty_file('new/asdf.ti')
             copy('new')
