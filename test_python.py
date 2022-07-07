@@ -83,6 +83,4 @@ def test_file_manager_system_information():
 def test_file_manager_creator():
     assert True, True
 
-def test_functions_sictiry_get_date():
-
 # чистых функций нет
